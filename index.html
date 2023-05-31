@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+		<script src="https://kit.fontawesome.com/0495b4dc04.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <canvas id="myCanvas"></canvas>
+        
+        <button id="startGame" onclick="start()">Start Game</button>
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <div>
+                <span style="font-size: 30px;">Score:</span>
+                <span style="font-size: 30px;" id="score"></span><br>
+            </div>
+            <div id="level">
+                <span>Pick Level:</span>
+                <select id="mySelect">
+                    <option value="120">Level 1</option>
+                    <option value="110">Level 2</option>
+                    <option value="100">Level 3</option>
+                    <option value="90">Level 4</option>
+                    <option value="80">Level 5</option>
+                    <option value="70">Level 6</option>
+                    <option value="65">Level 7</option>
+                    <option value="60">Level 8</option>
+                    <option value="55">Level 9</option>
+                    <option value="50">Level 10</option>
+                </select>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+#myCanvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+#startGame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+body{
+    background-color: #E5E5E5;
+}
